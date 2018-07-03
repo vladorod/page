@@ -1,3 +1,120 @@
-body {
-    background: red;
+.lol {
+    position: absolute;
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    transition: all 5s ;
+    left: 0px;
 }
+
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.lol:hover {
+   left: 100px;
+}
+.block{ 
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+}
+
+.block-logo {
+    width: 64px;
+    height: 64px;
+}
+
+.nav-menu {
+ background-color: black;
+ color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 60px;
+ width: 100%;
+  position: fixed;    
+}
+.nav-menu_0 {
+ align-items: center;
+ justify-content: center;
+ height: 60px;
+ width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    margin-left: 64px;
+    margin-right: 60px;
+    padding: 0px;
+    font-family: FuturaDemiC;
+    font-size: 16px;
+}
+
+li {
+    text-decoration: none;
+    margin-right: 40px;
+    list-style-type: none;
+    opacity: 0.8;
+    transition: all 0.1s;
+}
+
+a { 
+ color: white;
+ text-decoration: none;
+  
+}
+
+li:hover {
+  opacity: 1;
+ 
+  
+}
+
+.bar-serch-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  }
+
+.profile { 
+  background: url(../img/person.svg);
+  width: 27px;
+  height: 27px;
+  display: block;
+  margin-right: 25px;
+  cursor: pointer;
+    
+}
+
+.search {
+  background: url(../img/search.svg);
+  width: 27px;
+  height: 27px;
+  display: block;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.ch-box { 
+display: none;
+}
+.serch_pl {
+    background-color: white;
+    width: 100vw;
+    height: 20vh;
+    display: none;
+    position: fixed;
+    right: 0px;
+    top: 59px;
+    transition: all 1s;
+
+}
+
+#search:checked ~ .serch_pl {
+ 
+display: flex;
+    
+}
+
