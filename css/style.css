@@ -1,10 +1,17 @@
-.lol {
-    position: absolute;
-    background-color: antiquewhite;
-    width: 100px;
-    height: 100px;
-    transition: all 5s ;
-    left: 0px;
+/*Speceficate*/
+
+.serch_pl::selection {
+   background: transparent;
+}
+.serch_pl::-moz-selection {
+   background: transparent;
+}
+
+input::selection {
+   background: transparent;
+}
+input::-moz-selection {
+   background: transparent;
 }
 
 body {
@@ -34,13 +41,7 @@ justify-content: flex-end;
  justify-content: center;
  height: 60px;
  width: 100%;
-  position: fixed;    
-}
-.nav-menu_0 {
- align-items: center;
- justify-content: center;
- height: 60px;
- width: 100%;
+ position: static;    
 }
 
 .nav-bar {
@@ -103,13 +104,36 @@ display: none;
 .serch_pl {
     background-color: white;
     width: 100vw;
-    height: 20vh;
+    height: 16vh;
     display: none;
     position: fixed;
     right: 0px;
     top: 59px;
     transition: all 1s;
+    font-family: FuturaDemiC;
+    font-size: 48px;
+    justify-content: center;
+    align-items: center;
+    color: #e6e6e6;
+}
 
+input[type=text] {
+    border: none;
+    border-radius: 4px;
+    font-size: 48px;
+    font-family: FuturaDemiC;
+    text-transform: uppercase;
+    color: #e6e6e6;
+    width: 738px;
+}
+
+input::-webkit-input-placeholder { color: #e6e6e66e }
+input::-moz-placeholder { color: #e6e6e66e } 
+
+
+input[type=text]:focus {
+border: none;
+outline: none;
 }
 
 #search:checked ~ .serch_pl {
@@ -118,3 +142,17 @@ display: flex;
     
 }
 
+#showScroll { 
+position: fixed;
+    font-size: 16;
+    color: aqua;
+}
+
+#NavMenu {
+    position: relative;
+}
+
+
+.fixed {
+      position: fixed;
+    }
