@@ -1,0 +1,66 @@
+@media only screen and (max-width: 992px) {
+
+/*specification*/
+
+    .block-menu {
+    position: absolute;
+    display: block;
+    left: 10px;
+}
+
+    
+ .nav-menu {
+ background-color: black;
+ color: white;
+ display: flex;
+ flex-direction:column;
+ align-items: center;
+ justify-content: center;
+ height: 90px;
+ width: 100%;
+ position: static;    
+}
+   
+ .nav-bar {
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 16px;
+    flex-direction:column;
+  
+}   
+    
+    li {
+        margin: 30px;
+        font-size: 40px;
+        text-align: center;
+        display: none;
+}
+  
+    .block-logo {
+        position: absolute;
+        left: 70px;
+        top:0.5px;
+        margin: 0px;
+        width: 90px;
+        height: 90px;
+}
+    .search {
+        position: absolute;
+        background-size:contain;
+        width:  50px;
+        height: 50px;
+        right: 20px;
+        top: 20px;
+    }
+    
+    .profile {
+      position: absolute;
+        background-size:contain;
+        width:  50px;
+        height: 50px;
+        right: 60px;
+        top: 20px;  
+    }
+    
+}
