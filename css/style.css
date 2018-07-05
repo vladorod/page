@@ -157,3 +157,12 @@ position: fixed;
 .fixed {
       position: fixed;
     }
+.v-box{
+    overflow: hidden;
+        top:20px;
+    width: 252px;
+    height:264px;
+   border-radius:10px 10px;
+
+    
+}
