@@ -160,4 +160,16 @@ position: fixed;
 .fixed {
       position: fixed;
     }
+<<<<<<< HEAD
 
+=======
+.v-box{
+    overflow: hidden;
+        top:20px;
+    width: 252px;
+    height:264px;
+   border-radius:10px 10px;
+
+    
+}
+>>>>>>> 78a813775008a4d33761b75276baa2052e551c06
